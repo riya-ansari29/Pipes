@@ -1,0 +1,25 @@
+
+
+ 
+    <div style="text-align:center;background-color: gray  ">
+
+        <ul>
+            <li>
+                <h3> Welcome to: {{myname | uppercase}}</h3>
+            </li>
+            <li>
+                <h3> Welcome to: {{myname | lowercase}}</h3>
+            </li>
+            <li>
+                <h3> MSP: {{ amount | currency :'INR'}}</h3>
+            </li>
+
+            <li>
+                <h3> Date: {{today | date:'fullDate'}}</h3>
+            </li>
+            <li>
+                <h3> Percent: {{b | percent}}</h3>
+            </li>
+        </ul>
+    </div>
+
